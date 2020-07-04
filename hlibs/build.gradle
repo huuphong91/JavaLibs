@@ -70,4 +70,11 @@ dependencies {
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.28.1'
 
     api 'de.hdodenhof:circleimageview:3.1.0'
+
+    api 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+
+    //noinspection AnnotationProcessorOnCompilePath
+    compileOnly 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
 }
