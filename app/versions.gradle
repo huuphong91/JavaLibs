@@ -1,0 +1,5 @@
+def versions = [:]
+
+versions.rxjava = "3.0.4"
+
+ext.versions = versions

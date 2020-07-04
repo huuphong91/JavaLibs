@@ -1,0 +1,3 @@
+include ':hlibs'
+include ':app'
+rootProject.name = "Java Libs"
